@@ -12,7 +12,7 @@ public class Program {
     public void run() {
         int insertMenu;
         do {
-            insertMenu = this.getIntegerInput("\n\nNama: I Gusti Agung Gde Abhirama Adnyana\nNIM: 1908561094\nMenu\n1. Cek Isi Gitar\n2. Ganti Daftar Gitar\n3. Hapus Daftar Gitar\n4. Keluar\nPilihan: ");
+            insertMenu = this.getIntegerInput("\n\nNama: I Gusti Agung Gde Abhirama Adnyana\nNIM: 1908561094\nMenu\n1.Tampilkan Daftar Isi Gitar\n2.Masukan Data Gitar\n3. Hapus Daftar Gitar\n4. Keluar\nPilihan: ");
             this.processMenu(insertMenu);
         } while(insertMenu != 4);
     }
@@ -24,7 +24,7 @@ public class Program {
 
                 com.main.JenisGitar jenisGitar = com.main.TampilanGitar.TampilanGitar();
                 if (jenisGitar != null) {
-                    System.out.println("Masukan Data Gitar : " + jenisGitar.getJenisGitar());
+                    System.out.println("Data Gitar Yang Tersedia : " + jenisGitar.getJenisGitar());
                 }
                 else {
                     System.out.println("Belum Terdapat Gitar, Silahkan Masukan Jenis Gitar Anda");
