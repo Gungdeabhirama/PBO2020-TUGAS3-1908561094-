@@ -27,7 +27,7 @@ public class Program {
                     System.out.println("Data Gitar Yang Tersedia : " + jenisGitar.getJenisGitar());
                 }
                 else {
-                    System.out.println("Belum Terdapat Gitar, Silahkan Masukan Jenis Gitar Anda");
+                    System.out.println("Belum Terdapat Gitar, Silahkan Masukan Jenis Gitar Anda Di Menu 1");
                 }
 
                 break;
@@ -47,11 +47,11 @@ public class Program {
                 break;
 
             case 4:
-
+                 System.out.println("Terima Kasih");
                 break;
 
             default:
-                System.out.println("Terima Kasih");
+                System.out.println("Mohon Maaf Inputan Anda Salah");
 
                 break;
         }
